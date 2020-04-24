@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shazam</title>
+</head>
+<body>
+<form>
+    <input id="message" type="text">
+    <input onclick="wsSendMessage();" value="Echo" type="button">
+    <input onclick="wsCloseConnection();" value="Disconnect" type="button">
+</form>
+<textarea id="echoText" rows="5" cols="30"></textarea>
+<button id="start">Start</button>
+<button id="pause" value="Pause">Pause</button>
+<button id="stop" value="Stop">Stop</button>
+<script src="index.js"></script>
+</body>
+</html>
